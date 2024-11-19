@@ -8,7 +8,7 @@ export default function HomePage() {
         ></video>
         <div className="video-info">
           <p>FPT Tower - Hanoi</p>
-          <p>Happy Men's Day 🎉 #fpttelecom</p>
+          <p>Happy Mens Day 🎉 #fpttelecom</p>
           <p>🎵 nhạc nền - Thùy Dung</p>
         </div>
         <div className="video-actions">
