@@ -10,7 +10,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import { ForwardRefExoticComponent, ReactNode, RefAttributes } from "react"
+import { ForwardRefExoticComponent, RefAttributes } from "react"
 
 interface Item {
   title: string;
@@ -77,7 +77,7 @@ const systemItems = [
   },
 ]
 
-const SidebarGroupCustom : React.FC<{label? : String, items: Item[]}> = ({label, items}) => (
+const SidebarGroupCustom : React.FC<{label? : string, items: Item[]}> = ({label, items}) => (
   <SidebarGroup>
     { label ? <SidebarGroupLabel>{label}</SidebarGroupLabel> : null}
     <SidebarGroupContent>
