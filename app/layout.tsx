@@ -12,11 +12,10 @@ export default function RootLayout({ children } : Readonly<{ children : React.Re
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main className="flex">
-          <Sidebar />              
-          <section className="flex-1">{ children }</section>
-        </main>
+        <div className="">
+          <Header />
+          <Sidebar children={children} />
+        </div>
       </body>
     </html>
   );
