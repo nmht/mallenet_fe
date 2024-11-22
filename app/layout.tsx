@@ -12,10 +12,8 @@ export default function RootLayout({ children } : Readonly<{ children : React.Re
   return (
     <html lang="en">
       <body>
-        <div className="">
-          <Header />
-          <Sidebar children={children} />
-        </div>
+        <Header />
+        <Sidebar>{children}</Sidebar>
       </body>
     </html>
   );
